@@ -1,16 +1,14 @@
 # UD Block: Teaser-Card in Cover
 
 Ein Block zur Darstellung eines Beitrags oder Projekts als **Teaser innerhalb eines Cover-Blocks**.
-Er zeigt den Titel, optional einen „Mehr“-Link und ein animiertes Wellen-Overlay – ideal für Startseiten, Einstiegssektionen oder visuell betonte Inhaltsbereiche.
+Er zeigt den Titel und einen „Mehr“-Link – ideal für Startseiten, Einstiegssektionen oder visuell betonte Inhaltsbereiche.
 
 ---
 
 ## Funktionen
 
 - Verlinkt automatisch auf einen ausgewählten Beitrag oder ein Projekt (`postId`)
-- Darstellung des Beitragstitels innerhalb eines Cover-Blocks
-- Optionaler „Mehr erfahren“-Link
-- Wellen-Overlay für visuelle Tiefe und Bewegung
+- Darstellung des Beitragstitels innerhalb eines Cover-Blocks mit "Mehr erfahren"-Link
 - Dynamisches serverseitiges Rendering (`render.php`)
 - Kompatibel mit Full Site Editing (FSE)
 - Unterstützt Anker (`supports.anchor: true`) für Direktverlinkungen
@@ -27,8 +25,8 @@ Er zeigt den Titel, optional einen „Mehr“-Link und ein animiertes Wellen-Ove
 
 ## Frontend-Ansicht
 
-![Frontend-Ansicht](./assets/frontend-view.jpg)
-*Abbildung: Darstellung eines Teasers mit Titel und Wellen-Overlay.*
+![Frontend-Ansicht](./assets/ud-teaser-card-in-cover.png)
+*Abbildung: Ansicht im Frontend eines Teasers.*
 
 ---
 
@@ -36,8 +34,8 @@ Er zeigt den Titel, optional einen „Mehr“-Link und ein animiertes Wellen-Ove
 
 - Entwickelt mit [`@wordpress/scripts`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/)
 - Zentrale Attribute:
-- `postId` *(number)* – ID des ausgewählten Beitrags oder Projekts
-- PHP-Rendering greift auf den gewählten Post zu und gibt Titel + Link aus.
+    - `postId` *(number)* – ID des ausgewählten Beitrags oder Projekts
+    - PHP-Rendering greift auf den gewählten Post zu und gibt Titel + Link aus.
 
 ---
 
