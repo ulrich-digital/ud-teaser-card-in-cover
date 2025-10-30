@@ -1,0 +1,82 @@
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/css/frontend.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+.teaser_card_in_cover {
+  display: none;
+}
+
+.wp-block-cover.is-style-teaser-cover .teaser_card_in_cover {
+  display: block;
+}
+
+.teaser_card_in_cover {
+  color: var(--wp--preset--color--petrol);
+  position: static;
+}
+.teaser_card_in_cover h2 {
+  margin-top: 0.5em;
+  font-size: 30px;
+  font-family: "Brown";
+  margin-bottom: 2em;
+  line-height: 1em;
+}
+@media screen and (max-width: 600px) {
+  .teaser_card_in_cover h2 {
+    margin-top: 0.25em;
+    font-size: 22px;
+  }
+}
+.teaser_card_in_cover .wave_button {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: right;
+  padding: 0 24px 16px 0;
+}
+@media screen and (max-width: 600px) {
+  .teaser_card_in_cover .wave_button {
+    padding: 0 16px 10px 0;
+  }
+}
+.teaser_card_in_cover .wave_button .post_link {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+  line-height: 1em;
+  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: var(--wp--preset--color--sand-light);
+}
+@media screen and (max-width: 600px) {
+  .teaser_card_in_cover .wave_button .post_link {
+    font-size: 18px;
+  }
+}
+.teaser_card_in_cover .wave_button .overlay_bottom {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  width: 290px;
+  min-width: 290px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: 0;
+  border-bottom-right-radius: var(--border-radius);
+}
+@media screen and (max-width: 600px) {
+  .teaser_card_in_cover .wave_button .overlay_bottom {
+    height: 50px;
+    min-width: 200px;
+  }
+}
+.teaser_card_in_cover .wave_button .overlay_bottom path {
+  fill: var(--wp--preset--color--petrol);
+}
+
+/*# sourceMappingURL=frontend-style.css.map*/

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ud/teaser-card-in-cover",
+  "title": "Teaser-Card in Cover",
+  "description": "Zeigt den Titel eines ausgewählten Beitrags/Projekts und einen Mehr-Link mit Wellen-Overlay.",
+  "category": "design",
+  "icon": "clipboard",
+  "keywords": ["teaser", "cover", "link"],
+  "textdomain": "ud-teaser-card-in-cover",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "attributes": {
+    "postId": {
+      "type": "number",
+      "default": 0
+    }
+    
+  },
+  "editorScript": "file:./build/editor-script.js",
+  "style": "file:./build/frontend-style.css",
+  "editorStyle": "file:./build/editor-style.css",
+  "render": "file:./includes/render.php"
+}

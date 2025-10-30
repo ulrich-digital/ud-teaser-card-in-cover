@@ -1,0 +1,1 @@
+{"version":3,"file":"editor-style.css","mappings":";;;AAAA;EACI;EACA;EACA;EACA;EACA;EACA;AACJ,C","sources":["webpack://ud-wellen-grafik/./src/css/editor.scss"],"sourcesContent":[".teaser_card_in_cover{\n    width: 100%;\n    border: 0px solid;\n    background: #ffffff33;\n    padding: 10px;\n    box-sizing: border-box;\n    border-radius: 6px;\n\n}\n"],"names":[],"sourceRoot":""}
