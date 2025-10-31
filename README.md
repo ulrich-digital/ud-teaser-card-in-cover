@@ -3,7 +3,7 @@
 Ein Block zur Darstellung eines Beitrags oder Projekts als **Teaser innerhalb eines Cover-Blocks**.
 Er zeigt den Titel und einen „Mehr“-Link – ideal für Startseiten, Einstiegssektionen oder visuell betonte Inhaltsbereiche.
 
----
+
 
 ## Funktionen
 
@@ -14,21 +14,16 @@ Er zeigt den Titel und einen „Mehr“-Link – ideal für Startseiten, Einstie
 - Unterstützt Anker (`supports.anchor: true`) für Direktverlinkungen
 - Kompatibel mit Core-Cover-Blöcken und flexiblen Layouts
 
----
 
-## Editor-Ansicht
+
+## Screenshots
+![Frontend-Ansicht](./assets/ud-teaser-card-in-cover.png)
+*Ansicht im Frontend eines Teasers.*
 
 ![Editor-Ansicht](./assets/editor-view.png)
-*Abbildung: Auswahl eines Beitrags im Gutenberg-Editor.*
+*Auswahl eines Beitrags im Gutenberg-Editor.*
 
----
 
-## Frontend-Ansicht
-
-![Frontend-Ansicht](./assets/ud-teaser-card-in-cover.png)
-*Abbildung: Ansicht im Frontend eines Teasers.*
-
----
 
 ## Technische Details
 
@@ -37,7 +32,7 @@ Er zeigt den Titel und einen „Mehr“-Link – ideal für Startseiten, Einstie
     - `postId` *(number)* – ID des ausgewählten Beitrags oder Projekts
     - PHP-Rendering greift auf den gewählten Post zu und gibt Titel + Link aus.
 
----
+
 
 ## Installation
 
@@ -46,24 +41,17 @@ Er zeigt den Titel und einen „Mehr“-Link – ideal für Startseiten, Einstie
 3. Im Editor den Block **„UD Teaser-Card in Cover“** einfügen
 4. Beitrag oder Projekt auswählen und optional den Text anpassen
 
----
 
-## Anforderungen
 
-- WordPress ≥ 6.7
-- PHP ≥ 7.4
-- Aktiver Block-Editor (Gutenberg oder FSE-kompatibles Theme)
-
----
 
 ## Autor
 
-**ulrich.digital gmbh**
-[https://ulrich.digital](https://ulrich.digital)
+[ulrich.digital gmbh](https://ulrich.digital)
 
----
 
 ## Lizenz
 
 GPL v2 or later
 [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+
+
